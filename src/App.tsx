@@ -1,14 +1,10 @@
-import Test from "@/components/layouts/interactive-continuum";
-// import Test from "@/components/layouts/continuum";
+// import KeyboardContinuum from "./components/layouts/continuum";
+import InteractiveContinuum from "./components/layouts/interactive-continuum";
 
 function App() {
   return (
-    <div>
-      <Test />
-      {/* <Continuum fingerX={0} fingerY={0} /> */}
-      {/* <Continuum /> */}
-      {/* <Hand /> */}
-    </div>
+    <InteractiveContinuum />
+    // <KeyboardContinuum />
   );
 }
 
