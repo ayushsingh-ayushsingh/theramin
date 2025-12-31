@@ -162,7 +162,7 @@ function App() {
 
       // Draw keypoints
       hand.forEach((keypoint, i) => {
-        ctx.fillStyle = i === 12 ? "yellow" : "yellow";
+        ctx.fillStyle = i === 12 ? "orange" : "yellow";
         ctx.beginPath();
         ctx.arc(keypoint.x, keypoint.y, 5, 0, 2 * Math.PI);
         ctx.fill();
